@@ -7,7 +7,7 @@ const Home = () => {
 	return (
 		<div className='home'>
 			<img className='home__image' src='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_45M_v2_1x._CB432458380_.jpg' alt='' />	
-			<div className='home__row'>
+			<div className='home__row1'>
 				<Product id='12' title='Germ-x Germ-x Hand Sanitizer, Original with Pump, 8 Fl Ounce (Pack of 12), 96 Fl Oz' price={11.96} rating={5} 
 				image='https://images-na.ssl-images-amazon.com/images/I/516Pty+03xL._AC_US160_.jpg' />
 				<Product id='12' title='Schick Silk Touch-Up Multipurpose Exfoliating Dermaplaning Tool, Eyebrow Razor, and Facial Razor with Precision Cover, 3 Count' price={12.96} rating={5} 

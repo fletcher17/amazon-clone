@@ -12,6 +12,14 @@
 	margin-bottom: -150px;
 }	
 
+.home__row1 {
+	display: flex;
+	z-index: 1;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: -180px;
+}
+
 .home__row {
 	display: flex;
 	z-index: 1;
