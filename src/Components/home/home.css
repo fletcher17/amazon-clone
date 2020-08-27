@@ -17,7 +17,7 @@
 	z-index: 1;
 	margin-left: 5px;
 	margin-right: 5px;
-	margin-top: -180px;
+	margin-top: -150px;
 }
 
 .home__row {
@@ -25,4 +25,28 @@
 	z-index: 1;
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+@media (max-width: 990px) {
+	.home {
+		flex-direction: column;
+	}
+
+	.home__row1 {
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 100px;
+	}
+
+	.home__row {
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	margin-left: 5px;
+	margin-right: 5px;
+	}
+
 }
